@@ -2,6 +2,7 @@ package Mankala.sogyo;
 
 import junit.framework.Assert;
 import junit.framework.TestCase;
+import org.junit.Test;
 
 public class SpeelBordTest extends TestCase {
     private Speler spelerEen;
@@ -9,6 +10,8 @@ public class SpeelBordTest extends TestCase {
     private Kalaha spelerEenKalaha;
     private Kalaha spelerTweeKalaha;
 
+
+    @Test
     public void testVakSteen() {
         spelerEenKalaha = new Kalaha(spelerEen);
         spelerTweeKalaha = new Kalaha(spelerTwee);
