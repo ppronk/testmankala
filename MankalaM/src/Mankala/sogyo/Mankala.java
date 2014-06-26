@@ -111,15 +111,15 @@ public class Mankala {
         return (scoreKleinVakkenSpelerEen == 0);
     }
 
-    //private boolean kleineVakkenSpelerTweeLeeg() {
-    //    int scoreKleinVakkenSpelerTwee = nieuw.haalKleinVak(spelerTwee,1).aantalStenen() +
-    //        nieuw.haalKleinVak(spelerTwee,2).aantalStenen() +
-    //        nieuw.haalKleinVak(spelerTwee,3).aantalStenen() +
-    //        nieuw.haalKleinVak(spelerTwee,4).aantalStenen() +
-    //        nieuw.haalKleinVak(spelerTwee,5).aantalStenen() +
-    //        nieuw.haalKleinVak(spelerTwee,6).aantalStenen();
-    //   return (scoreKleinVakkenSpelerTwee == 0);
-    //}
+    private boolean kleineVakkenSpelerTweeLeeg() {
+        int scoreKleinVakkenSpelerTwee = nieuw.haalKleinVak(spelerTwee,1).aantalStenen() +
+            nieuw.haalKleinVak(spelerTwee,2).aantalStenen() +
+            nieuw.haalKleinVak(spelerTwee,3).aantalStenen() +
+            nieuw.haalKleinVak(spelerTwee,4).aantalStenen() +
+            nieuw.haalKleinVak(spelerTwee,5).aantalStenen() +
+            nieuw.haalKleinVak(spelerTwee,6).aantalStenen();
+       return (scoreKleinVakkenSpelerTwee == 0);
+    }
 
     private void wisselBeurt() {
         if(beurtSpeler.equals(spelerEen))
