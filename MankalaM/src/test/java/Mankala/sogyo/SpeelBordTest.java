@@ -2,6 +2,7 @@ package Mankala.sogyo;
 
 import junit.framework.Assert;
 import junit.framework.TestCase;
+import org.junit.Test;
 
 public class SpeelBordTest extends TestCase {
     private Speler spelerEen;
@@ -9,21 +10,21 @@ public class SpeelBordTest extends TestCase {
     private Kalaha spelerEenKalaha;
     private Kalaha spelerTweeKalaha;
 
-
+    @Test
     public void testVakSteen() {
         spelerEenKalaha = new Kalaha(spelerEen);
         spelerTweeKalaha = new Kalaha(spelerTwee);
         Assert.assertEquals(spelerEenKalaha.aantalStenen(), spelerTweeKalaha.aantalStenen());
     }
 
-
+    @Test
     public void testVakSteenEen() {
         spelerEenKalaha = new Kalaha(spelerEen);
         spelerTweeKalaha = new Kalaha(spelerTwee);
         Assert.assertEquals(spelerEenKalaha.hoortBij(), spelerEen);
     }
 
-
+    @Test
     public void testBord() {
         Speler spelerEen = new Speler();
         Speler spelerTwee = new Speler();
@@ -33,7 +34,7 @@ public class SpeelBordTest extends TestCase {
         Assert.assertEquals(result, result2);
     }
 
-
+    @Test
     public void testBordTweeHelemaalRond() {
         Speler spelerEen = new Speler();
         Speler spelerTwee = new Speler();
