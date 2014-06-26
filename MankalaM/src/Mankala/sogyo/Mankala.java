@@ -57,7 +57,7 @@ public class Mankala {
             }
             nieuw.haalKalaha(spelerTwee).eindeZet = false;
         } else {
-            System.out.println("kies een ander vakje, dit vakje bestaat niet of is leeg");
+            System.out.println("kies een ander vakje");
             startSpel();
         }
     }
@@ -118,7 +118,7 @@ public class Mankala {
             nieuw.haalKleinVak(spelerTwee,4).aantalStenen() +
             nieuw.haalKleinVak(spelerTwee,5).aantalStenen() +
             nieuw.haalKleinVak(spelerTwee,6).aantalStenen();
-        return (scoreKleinVakkenSpelerTwee == 0);
+       return (scoreKleinVakkenSpelerTwee == 0);
     }
 
     private void wisselBeurt() {
