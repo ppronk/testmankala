@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d055b20-8e79-499a-b31a-40330a3c2f22" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Mankala/sogyo/Kalaha.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Mankala/sogyo/KleinVak.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Mankala/sogyo/Mankala.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Mankala/sogyo/SpeelBord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Mankala/sogyo/Speler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Mankala/sogyo/StartMankala.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Mankala/sogyo/Vak.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="DELETED" beforePath="C:\Users\ppronk\ReposMankala\MankalaM\src\Mankala\sogyo\Kalaha.java" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\ppronk\ReposMankala\MankalaM\src\Mankala\sogyo\KleinVak.java" afterPath="" />
