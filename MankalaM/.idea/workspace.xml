@@ -251,7 +251,7 @@
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="mankalanieuw" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="Mankala Test Reports" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
