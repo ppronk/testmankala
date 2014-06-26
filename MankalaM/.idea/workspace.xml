@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d055b20-8e79-499a-b31a-40330a3c2f22" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mankala/sogyo/Mankala.java" afterPath="$PROJECT_DIR$/src/Mankala/sogyo/Mankala.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MankalaNieuw.iws" />
@@ -48,8 +49,8 @@
       <file leaf-file-name="Mankala.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Mankala/sogyo/Mankala.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1719101" vertical-offset="1785" max-vertical-offset="2873">
-              <caret line="114" column="90" selection-start-line="114" selection-start-column="90" selection-end-line="114" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.21011236" vertical-offset="1785" max-vertical-offset="2873">
+              <caret line="116" column="63" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -1015,8 +1016,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mankala/sogyo/Mankala.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1719101" vertical-offset="1785" max-vertical-offset="2873">
-          <caret line="114" column="90" selection-start-line="114" selection-start-column="90" selection-end-line="114" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.21011236" vertical-offset="1785" max-vertical-offset="2873">
+          <caret line="116" column="63" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
           <folding />
         </state>
       </provider>
