@@ -2,11 +2,13 @@ package Mankala.sogyo;
 
 import junit.framework.Assert;
 import junit.framework.TestCase;
+import org.junit.Test;
 
 public class VakTest extends TestCase {
     private Speler spelerEen = new Speler();
     private Speler spelerTwee = new Speler();
 
+    @Test
     public void testKleinVak() {
         KleinVak nieuw = new KleinVak(spelerEen, 1);
         KleinVak nieuw2 = new KleinVak(spelerTwee, 1);
@@ -16,6 +18,7 @@ public class VakTest extends TestCase {
         Assert.assertEquals(4, nieuw2.aantalStenen());
     }
 
+    @Test
     public void testKalaha() {
         Kalaha vanEen = new Kalaha(spelerEen);
         Kalaha vanTwee = new Kalaha(spelerTwee);
@@ -25,6 +28,7 @@ public class VakTest extends TestCase {
         Assert.assertEquals(0, vanTwee.aantalStenen());
     }
 
+    @Test
     public void testVakVolgendeLeegTwee() {
         KleinVak kv1 = new KleinVak(spelerEen, 1);
         KleinVak kv2 = new KleinVak(spelerEen, 2);
@@ -35,6 +39,7 @@ public class VakTest extends TestCase {
         Assert.assertEquals(kv2.getVolgende(),kv3);
     }
 
+    @Test
     public void testVakVolgendeZet() {
         KleinVak kv1 = new KleinVak(spelerEen, 1);
         KleinVak kv2 = new KleinVak(spelerEen, 2);
@@ -46,6 +51,7 @@ public class VakTest extends TestCase {
         Assert.assertEquals(3,kv2.aantalStenen());
     }
 
+    @Test
     public void testKleinVakZetMeer() {
         KleinVak kv13 = new KleinVak(spelerEen, 2);
         KleinVak kv14 = new KleinVak(spelerEen, 3);
@@ -61,6 +67,7 @@ public class VakTest extends TestCase {
         Assert.assertEquals(4,kv15.aantalStenen());
     }
 
+    @Test
     public void testKleinVakZetMeer2() {
         KleinVak kv3 = new KleinVak(spelerEen, 2);
         KleinVak kv4 = new KleinVak(spelerEen, 3);
@@ -80,6 +87,7 @@ public class VakTest extends TestCase {
         Assert.assertEquals(4,kv6.aantalStenen());
     }
 
+    @Test
     public void testVakVolgendeVullen() {
         KleinVak kv1 = new KleinVak(spelerEen, 1);
         KleinVak kv2 = new KleinVak(spelerEen, 2);
@@ -90,6 +98,7 @@ public class VakTest extends TestCase {
         Assert.assertEquals(5,kv2.aantalStenen());
     }
 
+    @Test
     public void testVakVolgendeSla() {
         KleinVak kv1 = new KleinVak(spelerEen,1);
         KleinVak kv2 = new KleinVak(spelerEen,2);
@@ -108,6 +117,7 @@ public class VakTest extends TestCase {
         Assert.assertEquals(1,vanEen.aantalStenen());
     }
 
+    @Test
     public void testVakVolgendeSlanietLeeg() {
         KleinVak kv1 = new KleinVak(spelerEen,1);
         KleinVak kv2 = new KleinVak(spelerEen,2);
@@ -125,6 +135,7 @@ public class VakTest extends TestCase {
         Assert.assertEquals(5,vanEen.aantalStenen());
     }
 
+    @Test
     public void testVakEindigOverkantLeeg() {
         KleinVak kv1 = new KleinVak(spelerEen,1);
         KleinVak kv2 = new KleinVak(spelerEen,2);
